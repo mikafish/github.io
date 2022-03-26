@@ -28,24 +28,3 @@ h3{
     font-size: 1.5rem;
 }
 
-nav 
-   nav a:link  {
-        color:black
-        font-family: helvetica;
-        text-decoration: none;
-        nav text-transform: uppercase;
-      }
-     
-      nav a:visited {
-        color:blue;
-      }
-
-      nav a:hover {
-        text-decoration: underline;
-      }
-      
-     nav a:active {
-        color: black;
-      }
-    
-     
