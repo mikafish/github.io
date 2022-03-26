@@ -19,12 +19,36 @@ h1{
     font-size: 2rem;
 }
 nav, li  {
-    color: rgb(15, 83, 83);
+    color: rgb(156, 246, 246);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     font-weight: lighter;
     text-align: center;
     text-decoration: underline;
     list-style-type: none; 
-    nav text-transform: uppercase;
+    text-transform: uppercase;
+}
+
+nav,
+Header{
+    text-align: center;
+}
+
+nav a,
+.assignments a,
+Footer a {
+    text-decoration: none;
+    color:black
+}
+
+Nav a:Link
+nav a:visited {
+    line-height: 1.5;
+}
+
+Nav a:hover
+nav a:active {
+    text-decoration: wavy;
+    text-underline-offset: 1px;
+    color rgb (156,246,246);
 }
