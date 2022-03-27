@@ -16,12 +16,17 @@ html {
 
 h1{
     font-size: 1rem;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: lighter;
     
 }
 
 h2{
     font-size: 1rem;
     text-decoration: none;
+    text-align: left;
+    text-indent: 1.5rem;
 }
 
 h2::before,
@@ -56,16 +61,54 @@ nav a:visited {
 }
 Nav a:hover,
 nav a:active {
-    text-decoration: underline wavy;
+    text-decoration: underline;
     text-underline-offset: 1px;
     text-decoration-color:rgb(156, 246, 246) ;
 }
 
 .assignments li{
     list-style-type: none;
+    text-align: left;
 }
 .assignments a{
    text-decoration: none;
     list-style: none;
     color: rgb(226, 166, 203);
 }
+
+.assignments li ::before,
+.assignments li ::after{
+    content:"\2728";
+}
+
+.assignments a:link,
+.assignments a:visited {
+    line-height: 1.5;
+}
+.assignments a:hover,
+.assignments a:active {
+    text-decoration: underline;
+    text-underline-offset: 1px;
+    text-decoration-color:rgb(156, 246, 246) ;
+}
+
+
+footer a{
+    color:black;
+    text-decoration: none;
+}
+footer{
+     text-decoration: none;
+     font-size: small;
+ }
+
+ footer a:link,
+ footer a:visited{
+     line-height: 1.5;
+ }
+ footer a:hover,
+ footer a:active {
+     text-decoration: underline;
+     text-underline-offset: 1px;
+     text-decoration-color:rgb(156, 246, 246) ;
+ }
