@@ -5,8 +5,7 @@ html {
     color:black}
 
     h1,
-    h2,
-    h3 {
+    h2 {
         color:black
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-decoration:underline dashed rgb(156,246,246);
@@ -16,15 +15,28 @@ html {
     }
 
 h1{
-    font-size: 2rem;
+    font-size: 1rem;
+    
 }
-nav, li  {
+
+h2{
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+h2::before,
+h2::after {
+    content: "\2728";
+}
+
+
+nav li  {
+    font-size:smaller;
     color: rgb(156, 246, 246);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     font-weight: lighter;
-    text-align: center;
-    text-decoration: underline;
+    text-align:left ;
     list-style-type: none; 
     text-transform: uppercase;
 }
@@ -34,21 +46,17 @@ Header{
     text-align: center;
 }
 
-nav a,
-.assignments a,
-Footer a {
+nav a {
     text-decoration: none;
     color:black
 }
-
-Nav a:Link
+nav a:link,
 nav a:visited {
     line-height: 1.5;
 }
-
-Nav a:hover
+Nav a:hover,
 nav a:active {
-    text-decoration: wavy;
+    text-decoration: underline wavy;
     text-underline-offset: 1px;
-    color rgb (156,246,246);
+    text-decoration-color:rgb(156, 246, 246) ;
 }

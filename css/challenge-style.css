@@ -28,3 +28,11 @@ h3{
     font-size: 1.5rem;
 }
 
+nav a:link  {
+    color:black
+    font-family: helvetica;
+    text-decoration: none;
+    nav text-transform: uppercase;
+  }
+
+ 
