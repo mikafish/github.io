@@ -60,3 +60,12 @@ nav a:active {
     text-underline-offset: 1px;
     text-decoration-color:rgb(156, 246, 246) ;
 }
+
+.assignments li{
+    list-style-type: none;
+}
+.assignments a{
+   text-decoration: none;
+    list-style: none;
+    color: rgb(226, 166, 203);
+}
