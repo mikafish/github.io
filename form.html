@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <link rel="Stylesheet" href="/css/form-style.css">
 </head>
 
 <body>
-    <div id="wrappper">
+    <div id="wrapper">
 
         <nav>
             <ul>
@@ -20,12 +21,12 @@
             </ul>
         </nav>
 
-    <header>
-        <h1>Reserve Your Room</h1>
+     <header>
+         <h1>Reserve Your Room</h1>
          <h2>Our Reservation Policies</h2>
      </header>
 
-    <section class="policies">
+     <section class="policies">
          <ul>
               <li>Check-in Time after 3:00pm</li>
               <li>Check-out by 11:00am or charges are incurred</li>
@@ -36,9 +37,9 @@
         </ul>
      </section>
      
-     <section class="Reserve" section>
-        <form method="post" name="reservation" data-netlify="true">
-
+     <section class="Reserve">
+          <form method="post" name="reservation" data-netlify="true">
+             
             <div>
                 <label for="FirstName">First Name:</label>
                 <input type="text"name="FirstName" id="FirstName" placeholder="First Name" required>
@@ -78,22 +79,23 @@
                 <label for="RoomType">Room Type:</label>
                 <select>
                     <option disabled hidden selected>Choose One</option>
-                    <option>Twin</option>
-                    <option>King</option>
-                    <option>Queen</option>
+                    <option>Twin</option>Two Double Beds
+                    <option>Queen</option> Two Queen Beds
+                    <option>King</option> One King Bed
                 </select>
-               
-             <div> 
-                <div>Ocean View (Additional Cost)</div>
+                </div>
+
+             <div class="radio"> 
+                <span>Ocean View (Additional Cost)<span>
                 <label for="view">Yes</label>
                 <input type="radio" name="View" id="yes" value="yes">
-
                 <label for="view">No</label>
                 <input type="radio" name="View" id="no" value="no">
              </div>
 
              <Div>
-                <label>List Of Allergies or other Requests</label> <textarea></textarea>
+                <label for="notes">List Of Allergies or other Requests</label> 
+                <textarea name="notes" id="notes" cols="30" rows="2"></textarea>
              <Div>
 
             <div>
@@ -118,30 +120,16 @@
 
             <div>
                 <input type="submit" value="Submit">
-            <div>
+            </div>
             
             <div>
             <input type="submit" value="Reset">
-            <Div>
-
-<footer>
-    <p>
-        &copy;2022 The Inn at Snowy River<br>
-        Stowe, VT<br>
-
-    </p>
-<footer>
-
-            </form>
+            </div>   
+    <Div>
+    </form>
             </section>
 
 
-
-             
-
-
-
-
-</body>
+<body>
 
 </html>
