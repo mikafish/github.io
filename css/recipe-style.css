@@ -1,0 +1,179 @@
+/*font-family: 'Merriweather', serif;
+font-family: 'Lobster', cursive;
+*/
+
+html {
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    font-size: 1.20rem;
+    line-height: 125%;
+    color: #c98226;
+    background-color:#fff6eb ;
+  }
+
+* ,
+* ::before ,
+* ::after {
+    box-sizing: inherit;
+}
+
+nav{
+    background-color: #c98226;
+    text-align: center;
+
+
+}
+
+nav li{
+    display: inline;
+
+}
+nav a{
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+nav a:link, 
+nav a:visited{
+    text-decoration: none;
+}
+ 
+nav a:hover,
+nav a:active{
+    background-color:#fff6eb;
+    text-decoration: underline;
+    color: #50504f;
+}
+
+main{
+    font-family:'merriweather', serif;
+    width: 80%;
+    margin: 0 auto;
+}
+h1,
+h2,
+h3{
+    font-family: 'lobster', cursive;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 6%;
+    text-align: center;
+    text-shadow: 3px 5px 3px #ccc;
+    
+}
+
+header{
+    margin: 10%;
+}
+
+img{
+    float: left;
+    max-width: 30%;
+    margin-right: 10%;
+    margin-left:5%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px #ccc;
+    shape-outside: circle(50%);
+}
+
+header h2{
+    margin-top: 8%;
+}
+
+.rate{
+    clear: both;
+    margin-top: 6%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 6%;
+}
+
+.emoji::after{
+    content: "\1f370";
+}
+
+.details,
+.ingredients,
+.instructions,
+.nutrition{
+    width: 40%;
+    float: left;
+    margin-top: -2%;
+}
+.ingredients{
+    margin-top: -6%;
+}
+.details,
+.instructions{
+    margin-right: 16%;
+    margin-left: 4%;
+}
+
+.details ul{
+    text-transform: lowercase;
+}
+.details ul{
+    text-transform: capitalize;
+}
+blockquote{
+    color:#fff6eb;
+    clear: both;
+    width: 300px;
+    height: 300px;
+    padding: 100px 10px 50px 50px;
+    border-radius: 50%;
+    background-color: #c98226;
+    outline: dotted 6px #c98226;
+    outline-offset: 8px;
+    font-family: 'merriweather', serif;
+    font-size: 1rem;
+    margin:80px auto 0 ;
+}
+
+blockquote small{
+    text-align: right;
+}
+
+footer{
+    background-color: #c98226;
+    color:white ;
+    padding: 2% auto 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer a{
+    display: block;
+    font-family: 'merriweather, serif';
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+footer ul{
+    list-style-type: none;
+    text-align:right;
+}
+
+footer li:hover,
+footer li:active{
+    text-decoration: underline;
+}
+
+.col1,
+.col2,
+.col3{
+    display: block;
+    float: left;
+    width: 33%;
+}
+
+footer p{
+    clear: both;
+}
