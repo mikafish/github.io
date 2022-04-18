@@ -15,18 +15,31 @@ html {
     }
 
 h1{
-    font-size: 1rem;
+    font-size: 2.5rem;
+    font-family: 'Lobster';
     text-transform: uppercase;
     font-style: italic;
     font-weight: lighter;
-    
 }
+.fade-in{
+    animation-name: FadeIn;
+    animation-duration: 3s;
+    transition-timing-function: linear;
+  }
 
-
+@keyframes FadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
 h2{
     font-size: 1rem;
     text-decoration: none;
-    text-align: left;
+    text-align: center;
     text-indent: 1.5rem;
 }
 
@@ -52,10 +65,21 @@ header{
     text-align: center;
 }
 
+nav{
+    top: 50px;
+    float: left;
+    position: relative;
+    top: 0;
+}
+
 nav a {
     text-decoration: none;
     color:black
 }
+p{
+    text-align: center;
+}
+
 nav a:link,
 nav a:visited {
     line-height: 1.5;
@@ -69,7 +93,7 @@ nav a:active {
 
 .assignments li{
     list-style-type: none;
-    text-align: left;
+    text-align: center;
 }
 .assignments a{
    text-decoration: none;

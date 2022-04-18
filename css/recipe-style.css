@@ -222,9 +222,9 @@ footer p{
     .ingredients,
     .instructions,
     .nutrition{
-        width: 120%;
+        width: 100%;
         float: none;
-        font-size: larger;
+        font-size: 100rem;
     }
     .col1,
     .col2,
@@ -246,9 +246,10 @@ footer p{
 
 }
 
-@media (max-width:820 ) {
+@media all and (min-width:820 ) {
     html{
         line-height: 200% ;
+        font-size: 1.5rem;
     }
 
     nav a{
