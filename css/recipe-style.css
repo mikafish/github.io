@@ -181,7 +181,7 @@ footer p{
 
 /* media queries go below*/
 
-@media (max-width:375px) 
+@media (mix-width:375px) 
 {
     html{
         line-height: 125%;
@@ -189,23 +189,23 @@ footer p{
     nav a{
     padding: 10px;
     letter-spacing: 5px;
-    line-height: 125%;
-    font: 2rem ;
+    line-height: 100%;
+    font: 1rem ;
     }
    
     nav ul{
         padding-left: 10px;
     }
     main{
-    width: 80%;
+    width: 90%;
     }
     h1{
         font-size: 1rem;
         text-shadow: none;
-        line-height: 150%;
+        line-height: 125%;
     }
     h2{
-        font-size: 1.2rem;
+        font-size: 2.5rem;
     }
     img{
         float: none;
@@ -216,16 +216,17 @@ footer p{
 
 
     .rate{
-        font-size: 5rem;
+        font-size: 2rem;
+        text-align: center;
     }
 
     .details,
     .ingredients,
     .instructions,
     .nutrition{
-        width: 100%;
+        width: 90%;
         float: none;
-        font-size: 100rem;
+        font-size:2rem;
     }
     .col1,
     .col2,
