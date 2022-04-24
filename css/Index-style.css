@@ -51,7 +51,7 @@ h2{
 }
 
 a{
-    color: rgb(255, 24, 24);
+    color: rgb(4, 4, 4);
     text-decoration: none;
 
 }
@@ -96,7 +96,7 @@ h2::after {
 
 nav li  {
     font-size:smaller;
-    color: rgb(156, 246, 246);
+    color: rgb(253, 23, 245);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     font-weight: lighter;
