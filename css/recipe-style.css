@@ -20,8 +20,6 @@ html {
 nav{
     background-color: #c98226;
     text-align: center;
-
-
 }
 
 nav li{
@@ -53,6 +51,7 @@ main{
     width: 80%;
     margin: 0 auto;
 }
+
 h1,
 h2,
 h3{
@@ -74,7 +73,7 @@ header{
 
 img{
     float: left;
-    max-width: 30%;
+    max-width: 10%;
     margin-right: 10%;
     margin-left:5%;
     border-radius: 50%;
@@ -181,14 +180,15 @@ footer p{
 
 /* media queries go below*/
 
-@media (mix-width:375px) 
-{
+@media (min-width:375px){
     html{
+        float: none;
         line-height: 125%;
+        font-size: 1rem;
     }
+
     nav a{
     padding: 10px;
-    letter-spacing: 5px;
     line-height: 100%;
     font: 1rem ;
     }
@@ -209,14 +209,14 @@ footer p{
     }
     img{
         float: none;
-        max-width: 5%;
-        margin left: 5%;
+        max-width: 50%;
+        margin-left:25%;
         align-items: center;
     }
 
-
     .rate{
-        font-size: 2rem;
+        font-size: 1.25rem;
+        line-height: 125%;
         text-align: center;
     }
 
@@ -224,9 +224,12 @@ footer p{
     .ingredients,
     .instructions,
     .nutrition{
-        width: 90%;
+        width: 80%;
         float: none;
-        font-size:2rem;
+        font-size:1rem;
+        line-height: 125%;
+        margin-bottom: 40px;
+        
     }
     .col1,
     .col2,
@@ -243,15 +246,12 @@ footer p{
         max-width: 80%;
 
     }
-
-
-
 }
 
-@media all and (min-width:820 ) {
+@media (min-width:820 ) {
     html{
-        line-height: 200% ;
-        font-size: 1.5rem;
+        line-height: 125% ;
+        font-size: 5rem;
     }
 
     nav a{
@@ -263,24 +263,88 @@ footer p{
     nav ul{
         padding-left: 10px;
     }
-    main{
-    width: 90%;
-    }
+
     h1{
-        font-size: 2.5rem;
+        font-size: 5rem;
         text-shadow: none;
         line-height: 150%;
     }
     h2{
         font-size: 1.2rem;
     }
+    main{
+        width: 80%;
+    }
+
+    img{
+        width: 40%;
+    }
+
     .details,
     .ingredients,
     .instructions,
-    .nutrition {
-        font-size: 5rem;
+    .nutrition{
+        width: 80%;
+        float: none;
+        font-size:1rem;
+        line-height: 125%;
+        margin-bottom: 80px;
+        
+    }
+    .col1,
+    .col2,
+    .col3{
+        display: block;
+        float: none;
+        width: 33%;
+    }
+}
+
+@media (min-width:900px){
+    html{
+        font-size: 1.25rem;
+        line-height: 125%;
     }
 
-       
+    nav a{
+        padding:none;
+        letter-spacing: 1px;
+        line-height: 125%;
+        font: 1rem ;
+    }
+    nav ul{
+        padding-left: 10px;
+    }
 
+    h1{
+        font-size: 3rem;
+        text-shadow: none;
+        line-height: 125%;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+
+    main{
+        width: 90%;
+    }
+
+    img{
+        float: left;
+        max-width: 20%;
+        margin-right: 10%;
+        margin-left:5%;
+        border-radius: 50%;
+        box-shadow: 5px 5px 3px #ccc;
+        shape-outside: circle(50%);
+    }
+
+    .details,
+    .ingredients,
+    .instructions,
+    .nutrition{
+         width: 40%;
+          float: left;
+          margin-top: -2%;
+        }
 }
